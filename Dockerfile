@@ -1,4 +1,5 @@
 FROM ubuntu:18.04
-COPY . /app
-RUN make /app
-CMD bash /app/hellow.sh
+ADD ./hellow.html  /var/www/html
+USER 1001
+EXPOSE 8080
+EXPOSE 8443
