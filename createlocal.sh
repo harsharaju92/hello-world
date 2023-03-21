@@ -1,1 +1,1 @@
-runmqsc QM2 < qlocal.mqsc
+runmqsc QM3 < qlocal.mqsc
