@@ -15,4 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: run MQ commands on QM3
-      run: bash -e {./createlocal.sh}
+      shell: bash
+      run:  pwd
+      
