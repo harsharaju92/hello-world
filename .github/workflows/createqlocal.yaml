@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: run MQ commands on QM2
-      run: pwsh command \". '{createlocal.sh}'\".
+      run: bash -e {./createlocal.sh}
