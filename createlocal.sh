@@ -1,8 +1,5 @@
 #runmqsc QM3 < qlocal.mqsc
 echo "Hello Madhuri"
-sudo su - mqm 
-#sudo su - ansible
-#ssh ubuntu@172.31.38.144
-#sudo su 
-#su - mqm
+sudo su - mqm
+echo "changed to mqm user"
 runmqsc QM1 < qlocal.mqsc
